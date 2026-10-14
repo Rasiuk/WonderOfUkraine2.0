@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wonders of Ukraine — travel agency offering guided tours across Ukraine."
+    />
+    <title>Wonders of Ukraine</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jomolhari&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./sass/main.css" />
+  </head>
+  <body>
+    <!-- Hero + header -->
+    <div class="hero__container">
+      <header>
+        <div class="header_container">
+          <a href="./index.html" aria-label="Wonders of Ukraine — home">
+            <img class="header__logo" src="./img/Logo.svg" alt="Logo" />
+          </a>
+
+          <button
+            class="burger"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="main-menu"
+          >
+            <span class="burger__line"></span>
+          </button>
+
+          <nav>
+            <ul class="nav__menu" id="main-menu">
+              <li class="nav__menu__item"><a href="#about">About us</a></li>
+              <li class="nav__menu__item"><a href="#tour">Tours</a></li>
+              <li class="nav__menu__item"><a href="#gallery">Gallery</a></li>
+              <li class="nav__menu__item"><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="hero__title__container">
+        <h1 class="hero_title">
+          Unlock the Wonders <br />
+          of <br />
+          <span class="reflection__title">Ukraine</span>
+        </h1>
+        <button class="hero__btn" type="button" data-scroll-to="#tour">
+          Our tours
+        </button>
+      </div>
+
+      <ul class="hero__social__links">
+        <li>
+          <a
+            href="https://t.me/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Telegram"
+          >
+            <svg class="icon" width="24" height="24" aria-hidden="true">
+              <use href="./img/sprite.svg#telegram-logo"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <svg class="icon" width="24" height="24" aria-hidden="true">
+              <use href="./img/sprite.svg#facebook-logo"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <svg class="icon" width="24" height="24" aria-hidden="true">
+              <use href="./img/sprite.svg#instagram-logo"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <main>
+      <!-- About us -->
+      <section class="section about__section" id="about">
+        <div class="container about__us__container">
+          <h2 class="title">About us</h2>
+          <div class="about_description">
+            <p class="about__description">
+              Welcome to our travel agency in Ukraine! We are a locally owned
+              and operated travel agency that specializes in creating unique and
+              unforgettable travel experiences for our clients. Our team of
+              experienced travel professionals is dedicated to providing
+              personalized service to help you plan your dream vacation. We have
+              extensive knowledge of Ukraine's culture, history, and geography,
+              which allows us to create customized itineraries that showcase the
+              best of our beautiful country.
+            </p>
+            <p class="about__description">
+              We are committed to providing our clients with exceptional
+              customer service and support throughout their travels. Our team is
+              always available to assist you with any questions or concerns you
+              may have before, during, and after your trip. Thank you for
+              considering our travel agency for your travel needs. We look
+              forward to helping you plan an unforgettable vacation in Ukraine
+              or beyond!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our tours -->
+      <section class="section" id="tour">
+        <h2 class="title">Our tours</h2>
+        <div class="swiper">
+          <ul class="swiper-wrapper">
+            <!-- Tour 1 -->
+            <li class="swiper-slide">
+              <img
+                class="tour__image"
+                src="./img/sinevir.png"
+                alt="Lake Synevyr surrounded by Carpathian forest"
+                width="450"
+                height="300"
+              />
+              <h3 class="tour__title">Lake Synevyr and Shypit waterfall</h3>
+              <ul class="tour__item__plan">
+                <li>Departure from Lviv (07:00) / Stryi (08:00)</li>
+                <li>Pylypets (overview of Shypit waterfall and lunch)</li>
+                <li>
+                  Synevyr Pass (photographing and viewing of Carpathian
+                  panoramas)
+                </li>
+                <li>
+                  "Synevyr" National Park (brown bear rehabilitation center and
+                  transition to the lake)
+                </li>
+                <li>Stryi (21:00) / Lviv (return by 22:00)</li>
+              </ul>
+              <p class="tour__descriptions">
+                This very interesting excursion will introduce you to the most
+                beautiful lake of the Carpathians, "Synevyr", and the impressive
+                waterfall "Shypit", which is also located in the Ukrainian
+                Carpathians. You will have the opportunity to try Soymivska and
+                Kelechynska mineral springs, drinks and delicious dishes of
+                Carpathian cuisine and, of course, admire the beautiful scenery
+                of the unique Ukrainian Carpathians.
+              </p>
+              <h3>Includes:</h3>
+              <ul>
+                <li>Transfer</li>
+                <li>Travel insurance</li>
+                <li>Professional guide</li>
+                <li>Travel insurance</li>
+              </ul>
+              <div class="tour__footer">
+                <button type="button">Book</button>
+                <p class="tour__price">Price: 2000 UAH</p>
+              </div>
+            </li>
+
+            <!-- Tour 2 -->
+            <li class="swiper-slide">
+              <img
+                class="tour__image"
+                src="./img/history.png"
+                alt="Old wooden house in the Ukrainian countryside"
+                width="450"
+                height="300"
+              />
+              <h3 class="tour__title">Ancient History &amp; Vibrant Present</h3>
+              <ul class="tour__item__plan">
+                <li>Departure from Kyiv (08:00)</li>
+                <li>
+                  St. Sophia's Cathedral (iconic UNESCO World Heritage site)
+                </li>
+                <li>Golden Gate (historical monument visit)</li>
+                <li>Bessarabsky Market (tasting local delicacies)</li>
+                <li>
+                  Kyiv Pechersk Lavra (exploration of the significant monastery)
+                </li>
+                <li>Return to Kyiv by 20:00</li>
+              </ul>
+              <p class="tour__descriptions">
+                Walk through more than a thousand years of Kyiv's history in a
+                single day. You will see the golden domes of St. Sophia's
+                Cathedral, stand beneath the ancient Golden Gate, taste local
+                delicacies at Bessarabsky Market and explore the caves and
+                churches of the Pechersk Lavra, guided by a local expert.
+              </p>
+              <h3>Includes:</h3>
+              <ul>
+                <li>Transfer</li>
+                <li>Travel insurance</li>
+                <li>Professional guide</li>
+                <li>Travel insurance</li>
+              </ul>
+              <div class="tour__footer">
+                <button type="button">Book</button>
+                <p class="tour__price">Price: 3000 UAH</p>
+              </div>
+            </li>
+
+            <!-- Tour 3 -->
+            <li class="swiper-slide">
+              <img
+                class="tour__image"
+                src="./img/sea.png"
+                alt="Black Sea coast near Odesa"
+                width="450"
+                height="300"
+              />
+              <h3 class="tour__title">Black Sea Jewel</h3>
+              <ul class="tour__item__plan">
+                <li>Departure from Odesa (08:00)</li>
+                <li>Primorsky Boulevard (city's iconic walk)</li>
+                <li>Potemkin Steps (historical site and great city views)</li>
+                <li>Odesa Opera and Ballet Theatre (exterior visit)</li>
+                <li>Lunch at a local seafood restaurant</li>
+                <li>Return to Odesa by 20:00</li>
+              </ul>
+              <p class="tour__descriptions">
+                Discover the pearl of the Black Sea: elegant boulevards, the
+                famous Potemkin Steps and the grand Opera House. Enjoy the
+                sea breeze, local seafood and the unique spirit of Odesa with an
+                experienced guide.
+              </p>
+              <h3>Includes:</h3>
+              <ul>
+                <li>Transfer</li>
+                <li>Travel insurance</li>
+                <li>Professional guide</li>
+                <li>Travel insurance</li>
+              </ul>
+              <div class="tour__footer">
+                <button type="button">Book</button>
+                <p class="tour__price">Price: 3500 UAH</p>
+              </div>
+            </li>
+          </ul>
+
+          <button
+            class="swiper-button-prev"
+            type="button"
+            aria-label="Previous tour"
+          >
+            Prev
+          </button>
+          <button
+            class="swiper-button-next"
+            type="button"
+            aria-label="Next tour"
+          >
+            Next
+          </button>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="section" id="gallery">
+        <div class="container">
+          <h2 class="title">Gallery</h2>
+          <div class="slider">
+            <ul class="slider_line">
+              <li>
+                <img
+                  src="./img/gallery/unsplash_134-72ac7W4_.jpg"
+                  alt="Ukrainian landscape 1"
+                  loading="lazy"
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/gallery/unsplash_bILJtn0d2cM_.jpg"
+                  alt="Ukrainian landscape 2"
+                  loading="lazy"
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/gallery/unsplash_l8LzIWmfZdY-1_.jpg"
+                  alt="Ukrainian landscape 3"
+                  loading="lazy"
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/gallery/unsplash_l8LzIWmfZdY-2_.jpg"
+                  alt="Ukrainian landscape 4"
+                  loading="lazy"
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/gallery/unsplash_l8LzIWmfZdY-3_.jpg"
+                  alt="Ukrainian landscape 5"
+                  loading="lazy"
+                />
+              </li>
+              <li>
+                <img
+                  src="./img/gallery/unsplash_l8LzIWmfZdY-4_.jpg"
+                  alt="Ukrainian landscape 6"
+                  loading="lazy"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reviews -->
+      <section class="section" id="reviews">
+        <div class="container">
+          <h2 class="title">Reviews</h2>
+          <ul class="reviews__list">
+            <li class="review__list__item">
+              <div class="review__user">
+                <img
+                  class="review__user__avatar"
+                  src="./img/avatars/anastasia.jpg"
+                  alt="Anastasia"
+                  width="40"
+                  height="40"
+                />
+                <h3 class="review__user__name">Anastasia</h3>
+                <div class="review__user__ratting" role="img" aria-label="Rating: 4 out of 5">
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                </div>
+              </div>
+              <p class="review__text">
+                Professional guides, comfortable transport, excellent hotels and
+                exciting excursions - it was unforgettable! I recommend this
+                company to anyone who wants to get the best experience out of
+                their trip.
+              </p>
+            </li>
+
+            <li class="review__list__item">
+              <div class="review__user">
+                <img
+                  class="review__user__avatar"
+                  src="./img/avatars/victoria.jpg"
+                  alt="Victoria"
+                  width="40"
+                  height="40"
+                />
+                <h3 class="review__user__name">Victoria</h3>
+                <div class="review__user__ratting" role="img" aria-label="Rating: 3 out of 5">
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                </div>
+              </div>
+              <p class="review__text">
+                I felt cozy and comfortable throughout the tour. Would have
+                liked a little more free time to explore on my own, but overall
+                was happy with the tour.
+              </p>
+            </li>
+
+            <li class="review__list__item">
+              <div class="review__user">
+                <img
+                  class="review__user__avatar"
+                  src="./img/avatars/valeriy.jpg"
+                  alt="Valeriy"
+                  width="40"
+                  height="40"
+                />
+                <h3 class="review__user__name">Valeriy</h3>
+                <div class="review__user__ratting" role="img" aria-label="Rating: 3 out of 5">
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                </div>
+              </div>
+              <p class="review__text">
+                My trip on the tour with this site was unforgettable! Excellent
+                organization, comfortable hotels and exciting excursions. Every
+                detail was carefully thought out and I could enjoy every moment
+                without any worries.
+              </p>
+            </li>
+
+            <li class="review__list__item">
+              <div class="review__user">
+                <img
+                  class="review__user__avatar"
+                  src="./img/avatars/ilona.jpg"
+                  alt="Ilona"
+                  width="40"
+                  height="40"
+                />
+                <h3 class="review__user__name">Ilona</h3>
+                <div class="review__user__ratting" role="img" aria-label="Rating: 3 out of 5">
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                </div>
+              </div>
+              <p class="review__text">
+                My tour with this agency was incredible! Everything was
+                organized to a high standard, including transport, accommodation
+                and excursions. The guides were very professional and knew every
+                corner of the place where we were going.
+              </p>
+            </li>
+
+            <li class="review__list__item">
+              <div class="review__user">
+                <img
+                  class="review__user__avatar"
+                  src="./img/avatars/dmitro.jpg"
+                  alt="Dmitro"
+                  width="40"
+                  height="40"
+                />
+                <h3 class="review__user__name">Dmitro</h3>
+                <div class="review__user__ratting" role="img" aria-label="Rating: 3 out of 5">
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                </div>
+              </div>
+              <p class="review__text">
+                It was an incredible trip and I am very grateful to the
+                organizers for the opportunity to learn more about our country.
+              </p>
+            </li>
+
+            <li class="review__list__item">
+              <div class="review__user">
+                <img
+                  class="review__user__avatar"
+                  src="./img/avatars/alisa.jpg"
+                  alt="Alisa"
+                  width="40"
+                  height="40"
+                />
+                <h3 class="review__user__name">Alisa</h3>
+                <div class="review__user__ratting" role="img" aria-label="Rating: 3 out of 5">
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                </div>
+              </div>
+              <p class="review__text">
+                I really like to travel and try to do it as often as possible.
+                The last one was to Lake Synevyr and it was very cool, a great
+                route, a comfortable bus, delicious food. I will definitely go
+                somewhere else with you.
+              </p>
+            </li>
+
+            <li class="review__list__item">
+              <div class="review__user">
+                <img
+                  class="review__user__avatar"
+                  src="./img/avatars/marry.jpg"
+                  alt="Marry"
+                  width="40"
+                  height="40"
+                />
+                <h3 class="review__user__name">Marry</h3>
+                <div class="review__user__ratting" role="img" aria-label="Rating: 3 out of 5">
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                </div>
+              </div>
+              <p class="review__text">
+                Great tour. I really liked the atmosphere, professional approach
+                and very interesting information.
+              </p>
+            </li>
+
+            <li class="review__list__item">
+              <div class="review__user">
+                <img
+                  class="review__user__avatar"
+                  src="./img/avatars/fedir.jpg"
+                  alt="Fedir"
+                  width="40"
+                  height="40"
+                />
+                <h3 class="review__user__name">Fedir</h3>
+                <div class="review__user__ratting" role="img" aria-label="Rating: 3 out of 5">
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star checked" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                  <span class="fa fa-star" aria-hidden="true"></span>
+                </div>
+              </div>
+              <p class="review__text">
+                We traveled with a company and it was incredible, everyone
+                without exception was satisfied and we will definitely go
+                somewhere else with you and will recommend it to everyone.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Start travel (form) -->
+      <section class="section">
+        <div class="container">
+          <form class="questions__form" action="#">
+            <div class="form__descriptions">
+              <h2>Start travel</h2>
+              <p>
+                If you want to get an unforgettable trip, quickly fill out the
+                application and we will contact you during the day.
+              </p>
+              <p>
+                We are ready to answer any questions and help choose the best
+                tour.
+              </p>
+            </div>
+
+            <label for="name">
+              Name
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                required
+              />
+            </label>
+
+            <label for="tel">
+              Phone
+              <input
+                type="tel"
+                id="tel"
+                name="tel"
+                autocomplete="tel"
+                required
+              />
+            </label>
+
+            <label for="message">
+              Message
+              <input
+                type="text"
+                id="message"
+                name="message"
+                placeholder="Your message"
+              />
+            </label>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="section" id="contacts">
+      <div class="container">
+        <div class="footer__logo">
+          <img src="./img/Logo.svg" alt="Wonders of Ukraine logo" />
+        </div>
+
+        <nav class="menu__footer">
+          <ul>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#tour">Tours</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <address class="adress">
+          <a href="tel:+380971231111">+38 (097) 123-11-11</a>
+          <a href="mailto:WondersOfUkraine@gmail.com"
+            >WondersOfUkraine@gmail.com</a
+          >
+          <a
+            href="https://goo.gl/maps/gBX784vLAGZZmxPi7"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Lviv, Zaporyzhka, 198</a
+          >
+          <ul class="cocial__links">
+            <li>
+              <a href="https://t.me/" target="_blank" rel="noopener noreferrer"
+                >Telegram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js" defer></script>
+    <script src="./js/form.js" defer></script>
+    <script src="./js/menu.js" defer></script>
+  </body>
+</html>
